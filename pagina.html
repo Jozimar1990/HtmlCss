@@ -6,15 +6,51 @@
     <title>Document</title>
 </head>
 <h1>Bem vindo</h1>
-<a href="index.html">Home</a>
+<a href="pagina.html">Página 1</a>
+    <a href="pagina2.html">Página 2</a>
+    <a href="pagina3.html">Página 3</a>
+    <a href="pagina4.html">Página 4</a><a href="index.html">Home</a>
+    <a href="pagina2.html">pagina 2</a>
+    <a href="pagina3.html">pagina 3</a>
 <body>
     <form action="salva.php" method="post">
         <fieldset>
             <legend>Dados Pessoais</legend>
             <label for="fname">Primeiro Nome </label>
             <input type="text" name="fname" id="fname" required><br><br>
+
+            <label for="femail">Digite seu email</label>
+            <input type="email" name="femail" id="femail" required><br><br>
             <label for="">Insira sua senha </label>
             <input type="password" name="" id="" value="333" disabled>
+
+            <label for="fpin">PIN</label>
+            <input type="text" name="fpin" id="fpin" maxlength="5" size="5">
+
+            <label for="fnascimento">Data de nascimento</label>
+            <input type="date" name="fnascimento" id="fnascimento"><br><br>
+
+
+            <p>Escolha sua linguagem </p>
+            <input type="radio" name="fav" id="html" value="Html">
+            <label for="html">Html</label><br>
+
+            <input type="radio" name="fav" id="css" value="Css">
+            <label for="css">Css</label><br>
+
+            <input type="radio" name="fav" id="python" value="Python">
+            <label for="python">Python</label><br>
+
+            <p>Escolha checkbox</p>
+            <input type="checkbox" name="fav" id="html" value="Html">
+            <label for="html">Html</label><br>
+
+            <input type="checkbox" name="fav" id="css" value="Css">
+            <label for="css">Css</label><br>
+
+            <input type="checkbox" name="fav" id="python" value="Python">
+            <label for="python">Python</label><br>
+
         </fieldset>
 
     </form>
